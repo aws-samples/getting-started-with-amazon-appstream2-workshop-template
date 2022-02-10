@@ -19,7 +19,7 @@ This template uses an AWS Lambda function to ensure the subnets are created in a
    3. Search for **AmazonAppStreamServiceAccess**. If you have this role, change CreateAS2Role to false.
 2. Navigate to the AWS CloudFormation console.
     1. This template is supported in us-east-1, us-west-2 and eu-west-1. Verify the Region in the upper right corner.
-3. Choose ***Create stack, with new resources (standard).**
+3. Choose **Create stack, with new resources (standard).**
 4. Choose **Upload a template file**.
 5. Select **cloudformation.yaml** from the repository.
 6. For **Stack name**, enter *AS2-Workshop*
