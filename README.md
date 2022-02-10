@@ -32,7 +32,7 @@ This template uses an AWS Lambda function to ensure the subnets are created in a
 Once your stack is created, you can start your workshop.
 
 ### Clean up
-You can clean up the resources created by deleted the AWS CloudFormation template. For clean up of the workshop resources, refer to the [clean up section of the workshop](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/e324c13e-2ded-4da2-ad9c-f685305156ac/en-US/conclusion).
+You can clean up the resources created by deleting the AWS CloudFormation template. For clean up of the workshop resources, refer to the [clean up section of the workshop](https://catalog.us-east-1.prod.workshops.aws/v2/workshops/e324c13e-2ded-4da2-ad9c-f685305156ac/en-US/conclusion).
 
 1. Navigate to the AWS CloudFormation console.
 2. Choose the *AS2-Workshop* stack
