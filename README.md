@@ -23,7 +23,7 @@ This template uses an AWS Lambda function to ensure the subnets are created in a
 4. Choose **Upload a template file**.
 5. Select **cloudformation.yaml** from the repository.
 6. For **Stack name**, enter *AS2-Workshop*.
-7. For CreateAS2Role, choose true if you don't see the role from step 1. If you do have the role, enter *false*.
+7. For **CreateAS2Role**, enter *true* if you don't see the role from step 1. If you do have the role, enter *false*.
 8. Choose **Next**.
 9. On the Configure stack options page, choose **Next**.
 10. Select **I acknowledge that AWS CloudFormation might create IAM resources with custom names**.
