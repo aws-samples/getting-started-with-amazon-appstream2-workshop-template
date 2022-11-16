@@ -243,7 +243,7 @@ Resources:
       DisplayName: Image Builder
       Description: Image Builder for AppStream 2.0 hands-on lab
       EnableDefaultInternetAccess: false
-      ImageName: AppStream-WinServer2019-03-03-2022
+      ImageName: AppStream-WinServer2019-10-05-2022
       InstanceType: stream.standard.medium
       Name: AS2_Lab_ImageBuilder
       VpcConfig: 
