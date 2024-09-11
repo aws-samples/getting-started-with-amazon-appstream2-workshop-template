@@ -1,13 +1,13 @@
 AWSTemplateFormatVersion: 2010-09-09
 
 Parameters:
-  isDeployingInEE:
-    Description: Set this to true if deploying template in EE. Setting it to false will skip deploying the AppStream 2.0 service role.
+  CreateAS2Role:
+    Description: Set this to true if you need to create the AppStreamServiceAccess role. Setting it to false will skip deploying the AppStream 2.0 service role.
     Default: true
     Type: String
 
 Conditions:
-  CreateAppStreamRole: !Equals [!Ref isDeployingInEE, "true"]
+  CreateAppStreamRole: !Equals [!Ref CreateAS2Role, "true"]
 
 Mappings:
   RegionMap:
